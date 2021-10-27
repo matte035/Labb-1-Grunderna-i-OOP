@@ -12,9 +12,12 @@ namespace Labb_1
             this._Radius = radius;
         }
 
-        public void GetArea()
+        public float GetArea()
         {
-            Console.WriteLine(" The Area of the cirle is " + _Radius * _Radius * _pi);
+            Console.WriteLine("The area of the circle is: {0}", _Radius * _pi);
+            return _Radius * _pi;
+            
+            
         }
     }
     class Program
