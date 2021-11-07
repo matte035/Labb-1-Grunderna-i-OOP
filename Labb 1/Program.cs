@@ -14,8 +14,8 @@ namespace Labb_1
 
         public float GetArea()
         {
-            Console.WriteLine("The area of the circle is: {0}", _Radius * _pi);
-            return _Radius * _pi;
+            Console.WriteLine("The area of the circle is: {0}", _Radius * _Radius * _pi);
+            return _Radius *_Radius *_pi;
             
             
         }
